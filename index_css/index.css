@@ -22,7 +22,7 @@ header img {
     border-radius: 10px 10px 10px 10px;
     grid-column-start: 1;
     grid-row-start: 1;
-    box-shadow: 3px 3px 3px 3px darkgray;
+    box-shadow: 3px 3px 30px darkgray;
     
 }
 
