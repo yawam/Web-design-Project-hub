@@ -4,8 +4,8 @@ console.log(date);
 let year = date.getFullYear();
 console.log(year);
 
-document.querySelector('footer','p').textContent = `${year} | Papa Yaw Agyeman-Manu| Accra`;
+document.querySelector('#foot').textContent = `${year} | Papa Yaw Agyeman-Manu| Accra`;
 
 let currentdate = document.lastModified;
-// document.querySelector('span').textContent = currentdate;
+document.querySelector('#lastmod').textContent = currentdate;
 console.log(currentdate);
