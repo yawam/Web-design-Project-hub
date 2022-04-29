@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Roboto+Slab:wght@300&display=swap');
+
 body {
     max-width:800px;
     margin: 0 auto;
@@ -27,6 +29,7 @@ header img {
 }
 
 header h1{
+    font-family: "Roboto Slab", serif;
     display: block;
     grid-column-start: 2;
     grid-row-start: 1;
@@ -35,6 +38,7 @@ header h1{
 }
 
 main {
+    font-family: "Barlow Semi Condensed", sans-serif;
     max-width: 700px;
     margin: 0 auto;
 
@@ -52,6 +56,7 @@ footer {
     max-width: 700px;
     margin: 0 auto;
     display: grid;
+    font-family: "Barlow Semi Condensed", sans-serif;
     background-color: orange;
     padding: 15px 50px 10px 50px;
     border-radius: 20px 20px 20px 20px;
@@ -59,6 +64,8 @@ footer {
     box-shadow: 3px 3px 50px darkgray;
     align-items: center;
     justify-items: center;
+    
 
 
 }
+
