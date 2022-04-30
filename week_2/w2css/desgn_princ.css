@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Roboto+Slab:wght@300&display=swap'); 
+body {padding:100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+header {
+    display: grid;
+    background-color: orange;
+    padding: 15px 50px 10px 50px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 50px darkgray;
+    align-items: center;
+    justify-items: center;
+
+}
+
+header h1 {
+    font-family: "Roboto Slab", serif;
+    font-size:50px;
+    margin:2.5px;
+
+}
+
+header h3 {
+    font-family: "Roboto Slab", serif;
+    font-size:35px;
+    
+}
+
+main{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    max-width: 400px;
+    text-align: center;
+}
+
+section img {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 50px darkgray;
+}
+section {
+    display: grid;
+    background-color: gainsboro;
+    padding:0px 5px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    border: solid 2px black;
+    box-shadow: 3px 3px 50px darkgray;
+    align-items: center;
+    justify-items: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.description{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 20px darkgray;
+    text-align: center;
+    
+}
+
+footer{
+    display: grid;
+    background-color: orange;
+    padding: 15px 50px 10px 50px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 50px darkgray;
+    align-items: center;
+    justify-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bolder;
+}
