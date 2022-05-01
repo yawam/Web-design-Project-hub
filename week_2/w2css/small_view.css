@@ -1,0 +1,12 @@
+@media(max-width: 48rem){
+    body{
+        padding:10px;
+    }
+
+
+    main{
+        display: block;
+    }
+
+
+}
