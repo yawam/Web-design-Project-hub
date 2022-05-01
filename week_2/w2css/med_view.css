@@ -1,0 +1,24 @@
+@media(max-width: 65.4rem){
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #apple_sec{
+        grid-column: 1/2;
+        grid-row:1;
+    }
+
+    #byui_sec{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    #tesla_sec{
+        grid-column: 1/3;
+        grid-row:2;
+        
+    }
+}
+    
