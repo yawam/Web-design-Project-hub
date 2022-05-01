@@ -13,7 +13,6 @@ header {
     box-shadow: 3px 3px 50px darkgray;
     align-items: center;
     justify-items: center;
-
 }
 
 header h1 {
@@ -38,18 +37,9 @@ main{
 }
 
 section {
-    max-width: 400px;
+    
     text-align: center;
-}
-
-section img {
-    width: 300px;
-    height: 500px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 3px 3px 50px darkgray;
-}
-section {
-    display: grid;
+    display: block;
     background-color: gainsboro;
     padding:0px 5px;
     border-radius: 20px 20px 20px 20px;
@@ -60,6 +50,14 @@ section {
     justify-items: center;
     font-family: "Roboto Slab", serif;
 }
+
+section img {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 50px darkgray;
+}
+
 
 .description{
     background-color: whitesmoke;
