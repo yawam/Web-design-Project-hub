@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Accra Chamber of Commerce Site">
+    <link rel="Stylesheet" href="w3css/index.css">
     <title>Chamber of Commerce</title>
 </head>
 <body>
     <header>
+        <img id="logo" src="w3img/greeting-g46c4fecc1_640.png">
         <h1>Accra Chamber of Commerce</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">Target Audience </a></li>
-            <li><a href="#">Color Scheme</a></li>
-            <li><a href="#">Typography</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="target-audience.html" class="active">Target Audience </a></li>
+            <li><a href="color.html">Color Scheme</a></li>
+            <li><a href="typography.html" >Typography</a></li>
         </ul>
+    </nav>
     <main>
         <section>
             <h2>Target Audience</h2>
@@ -25,17 +28,25 @@
         </section>
         <section>
             <h2>Personas</h2>
-            <div>
+            <div id="persona1">
                 <img src="w3img/rsz_business-woman-gc05dd224e_640.jpg" alt="business woman">
                 <p>This is an upcoming business woman who just got to moved into Accra and would like to make connections so she can improve her business. Our chamber commerce site can help her to get teh connections she needs and where to find them</p>
             </div>
-            <div>
+            <div id="persona2">
                 <img src="w3img/black-businessman-g07fb249a2_1280.jpg" alt="business man">
                 <p>This is a 34 year old business man who is looking for partners to start up his new business. Our chamber commerce site will help him find potential partners and contributors </p>
             </div>
         </section>
+        
        
     </main>
+    <footer>
+        <p>
+        &copy; <span id="foot"></span>
+        </p>
+        <p>last modified: <span id="lastmod"></span></p>
+        <script src="../index_script/main.js"></script>
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    max-width:800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+header{
+    display: grid;
+    background-color: orange;
+    padding: 15px 50px 10px 50px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 50px darkgray;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+nav {
+	background-color: #6d98ba;
+    border-radius: 0px 0px 10px 10px;
+	margin: 0 auto;
+	max-width: 800px;
+    padding: 3px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;
+}
+
+nav ul li a {
+	color: #fff;
+	text-align: center;
+    justify-content: space-around;
+	padding: 50px;
+	text-decoration: none;
+	
+	
+}
+
+.active {
+	color: yellow;
+}
+
+section{
+    display: block;
+    border-bottom: solid 2px black;
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+    justify-content: center;
+    
+
+}
+
+section h2{
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+
+}
+
+section h3{
+    text-align: center;
+}
+
+#orange{
+    color: orange;
+}
+
+#white{
+    background-color: black;
+    color: white;
+}
+
+#frost{
+    color:#6d98ba;
+}
+
+.colordiv{
+    border: 2px orange double;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: orange;
+    padding: 15px 50px 10px 50px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 50px darkgray;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+header img{
+    max-width: 200px;
+}
+
+#persona1{
+    
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+    justify-content: center;
+}
+
+#persona1 img{
+    max-width: 200px;
+}
+
+#persona2{
+    
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+    justify-content: center;
+}
+
+#persona2 img{
+    max-width: 200px;
+}
+
+h1, h2, h3{
+    font-family: "Roboto Slab", serif;
+}
+
+p, li{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+@media only screen and (max-width: 420px){
+    body{
+        max-width: 3500px;
+        display: block;
+    }
+    nav ul li a {
+        display: block;
+        padding:10px;
+    }
+}
