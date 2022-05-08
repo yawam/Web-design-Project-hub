@@ -136,7 +136,7 @@ p, li{
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 32.5em){
     body{
         max-width: 3500px;
         display: block;
