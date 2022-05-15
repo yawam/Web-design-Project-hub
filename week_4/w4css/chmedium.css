@@ -13,7 +13,7 @@
     }
 
     nav.open{
-        width: 700px
+        
     }
 
     .logo{
@@ -40,6 +40,7 @@
 
     nav ul.open{
         display: block;
+        width: 700px
     }
 
     #hamgurgerbtn.open span:nth-child(1){
@@ -104,7 +105,7 @@
 .spots{
     text-align:left;
     border: 1px solid black;
-    padding: 60px;
+    padding:3rem ;
 }
 
 
