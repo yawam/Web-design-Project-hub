@@ -1,0 +1,15 @@
+@media only screen and (max-width: 32.5em){
+    body{
+
+    }
+
+    #head{
+        flex-direction: column;
+    }
+
+    #actfoot{
+        flex-direction: column;
+        
+
+    }
+}

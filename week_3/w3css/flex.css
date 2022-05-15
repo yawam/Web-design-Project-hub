@@ -9,6 +9,7 @@ nav ul {
 nav li{
     list-style-type: none;
     padding: 20px 50px;
+    display: none;
 }
 
 @media screen and (min-width: 900px) {

@@ -1,0 +1,13 @@
+.newstyle{
+    background-color: red;
+
+
+}
+
+.responsive li{
+    display: block;
+}
+
+li:first-child{
+    display: block;
+}
