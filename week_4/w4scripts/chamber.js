@@ -1,7 +1,7 @@
 "use strict"
 
 const date = new Date();
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = { weekday: 'long',day: 'numeric', month: 'long', year: 'numeric' };
 
 console.log(date.toLocaleDateString('en-us', options));
 document.querySelector("#date").textContent = date.toLocaleDateString('en-us', options);
