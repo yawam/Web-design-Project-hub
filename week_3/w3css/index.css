@@ -35,6 +35,7 @@ nav ul {
 
 nav ul li a {
 	color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
 	text-align: center;
     justify-content: space-around;
 	padding: 50px;
