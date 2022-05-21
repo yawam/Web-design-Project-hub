@@ -9,7 +9,12 @@
 
     nav{
         order:1;
-        width: 70px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
     }
 
     nav.open{
@@ -40,7 +45,7 @@
 
     nav ul.open{
         display: block;
-        width: 700px
+        
     }
 
     #hamgurgerbtn.open span:nth-child(1){

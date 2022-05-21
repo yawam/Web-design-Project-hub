@@ -3,6 +3,16 @@
 const date = new Date();
 const options = { weekday: 'long',day: 'numeric', month: 'long', year: 'numeric' };
 
+showbanner();
+
+function showbanner(){
+        const weekday = date.getDay();
+        if (weekday ==  1 || weekday == 2) {
+            let banner = document.querySelector("#banner");
+            banner.style.display = "block";
+        };
+    };
+
 console.log(date.toLocaleDateString('en-us', options));
 document.querySelector("#date").textContent = date.toLocaleDateString('en-us', options);
 
@@ -22,3 +32,6 @@ function toggleMenu(){
 
 const x = document.querySelector("#hamgurgerbtn");
 x.onclick = toggleMenu
+
+
+
