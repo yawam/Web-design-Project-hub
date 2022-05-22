@@ -22,6 +22,15 @@ button.addEventListener("click", () => {
         list.removeChild(lis);
     });
 
+
+
+
+    input.focus();
+
+
+
+});
+
     // const clearbtn = document.createElement("button");
     // const body = document.querySelector("body");
     // clearbtn.innerHTML = "Clear";
@@ -33,10 +42,3 @@ button.addEventListener("click", () => {
 
 
     // })
-
-
-    input.focus();
-
-
-
-});
