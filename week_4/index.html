@@ -16,7 +16,7 @@
     <body>
         <header>
             <section id="head">
-            <img class = "logo" src="../week_3/w3img/greeting-g46c4fecc1_640.png" alt="site-logo">
+            <img class = "logo" src="../week_3/w3img/greeticon.webp" alt="site-logo">
             <h1><strong>Accra</strong> <br> Chamber of Commerce</h1>
             <nav>
                 <button id="hamgurgerbtn"><span>&#9776;</span><span>X</span></button>
@@ -37,7 +37,14 @@
 
         <main>
             <section id="event" ><h3><i class='fas fa-golf-ball'></i>Achimota Golf club</h3><p>Come join us this Saturday at 10am. <br> Let's Connect <br> Let's Play Golf</p></section>
-            <section id="weather" >Weather</section>
+            <section id="weather" >
+                <h2>
+                    Weather <span id = "wednum">23</span>&#8451
+                </h2>
+                <p>Partly Cloudy</p>
+                <p>Wind Speed = <span id = "wedspeed">2.5</span>km </p>
+                <p>Wind Chill = <span id = "wedchill" ></span></p>
+            </section>
 
             <section id="join" >
                 <button>Join Us today!</button>
@@ -45,7 +52,13 @@
             </section>
 
             <section id="hero">
-                <img src="../week_5/w5img/accra-airport-city.png" alt="Airport city view Accra">
+                <picture>
+                    
+                    <source media = "(max-width: 32.5em)" srcset = "../week_5/w5img/hero_small.jpg">
+                    <source media = "(max-width: 60em)" srcset = "../week_5/w5img/hero_medium.jpg">
+                    <img src="../week_5/w5img/hero_large.jpg" alt="Airport city view Accra">
+                </picture>
+                
                 <div class="shade"></div>
                 <h2>Welcome to Accra</h2>
                 <button>Join the Chamber</button>
