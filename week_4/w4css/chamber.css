@@ -118,7 +118,6 @@ main section{
     font-style: italic;
     padding: 5px;
     background-color: white ;
-    
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
     border-radius:10px 10px 10px 10px  ;
 }
@@ -130,6 +129,7 @@ main section{
 }
 
 #weather{
+    padding: 0px;
     grid-column: 1/2;
     grid-row: 2/3;
 }
