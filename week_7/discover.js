@@ -1,10 +1,11 @@
+// lazy loading
 const images = document.querySelectorAll("[data-src]");
-const options = {threshold: 1, rootMargin: "0px 0px 300px 0px"};
+const option = {threshold: 1, rootMargin: "0px 0px 300px 0px"};
 
 function preloadImage(img) {
     const source = img.getAttribute('data-src');
     if(!source) {
-        return
+        return;
     }
 
     img.src = source;
@@ -22,7 +23,7 @@ const io = new IntersectionObserver(
             }
         })
 
-    },options
+    }, option
 );
 
 images.forEach(image => {
@@ -30,7 +31,7 @@ images.forEach(image => {
 })
 
 
-
+// last visited
 // local storage
 
 localStorage.setItem('msg1', 'Hello Permanant');

@@ -219,7 +219,12 @@ main section{
 /* FOOTER */
 
 footer{
+    position: fixed;
     background-color: orange;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 5;
+    bottom: 0;
     
 }
 
@@ -232,6 +237,7 @@ footer{
     /* box-shadow: 3px 3px 50px darkgray; */
     justify-content: space-around;
     align-items: center;
+    
 }
 
 h1, h2, h3{
@@ -243,3 +249,21 @@ p, li{
 }
 
 
+/* discover */
+
+#discoverMain{
+    margin: 0  auto;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    /* gap: 20%; */
+}
+
+#discoverMain picture img{
+    max-width: 100%;
+
+}
+
+#discoverMain picture img:hover {box-shadow: 0 0 50px #333;}
