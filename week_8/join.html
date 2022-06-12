@@ -21,9 +21,9 @@
             <nav>
                 <button id="hamgurgerbtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primarynav">
-                    <li><a class="active" href="/week_7/discover.html">Discover</a></li>
+                    <li><a href="../week_7/discover.html">Discover</a></li>
                     <li><a href="">Directory</a></li>
-                    <li><a href="../week_8/join.html">Join</a></li>
+                    <li><a class="active" href="/week_8/join.html">Join</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
@@ -36,44 +36,37 @@
             <h3 id = "banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
             
         </header>
-        <main id = discoverMain>
+        <main id="joinmain">
 
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_1.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_2.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/rsz_2image_3.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_4.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_5.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_6.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_7.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_8.jpg" alt="kitten">
-            </picture>
-            <picture>
-                <img src="https://dummyimage.com/300x400/000/fff" alt="dummy"
-                data-src="accraimages/image_9.jpg" alt="kitten">
-            </picture>
+            <form method="get" action="week_8/thankyou.html">
+                <fieldset>
+                    <legend>Info</legend>
+                    <label class="top"> First Name*<input type="text" name="fname" required> </label>
+                    <label class="top"> Last Name*<input type="text" name="lname" required> </label>
+                    <label class="top"> Business Position<input type="text" name="buspos" pattern="[A- - - ]{7}" required></label>
+                    <label class="top"> Email<input type="email" name="email" placeholder="https://someone@gmail.com" required> </label>
+                    <label class="top"> Cell Phone Number*<input type="tel" name="phone" required> </label>
+                    <label class="top"> Business Name<input type="tel" name="business name" required> </label>
+                </fieldset>
+                <fieldset> 
+                    <legend>Membership level</legend> 
+                    <label class="member"><input name="member"type="radio">Premium Membership <span class="offers">- Free Golf Club passes, media subscriptions, shopping vouchers and more</span> </label>
+                    <label class="member"><input name="member"type="radio">Gold Membership <span class="offers">- Free Shopping vouchers and more</span></label>
+                    <label class="member"><input name="member"type="radio">Silver Membership<span class="offers">- Free Shopping vouchers </span></label>
+                    <label class="member"><input name="member"type="radio">Bronze Membership<span class="offers">- Free Shopping vouchers </span></label></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business description</legend>
+                    <textarea name="Business Description" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <input class="subbtn" type="button" name="submitbtn" value="Join">
+                
+            </form>
+
+
+
+            
 
 
         </main>

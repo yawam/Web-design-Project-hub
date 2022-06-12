@@ -32,6 +32,10 @@ header {
     margin: 0 auto;
 }
 
+.active{
+    color: yellow;
+}
+
 #banner{
     display:none;
     text-align: center;
@@ -104,7 +108,7 @@ nav ul li a:hover{
 
 /*MAIN  */
 
-main{
+#homepagemain{
     max-width: 90%;
     margin: 0 auto;
     margin-top: 20px;
@@ -114,7 +118,7 @@ main{
    gap: 30px;
 }
 
-main section{
+#homepagemain section{
     font-style: italic;
     padding: 5px;
     background-color: white ;
@@ -219,10 +223,11 @@ main section{
 /* FOOTER */
 
 footer{
-    position: fixed;
+    /* position: fixed; */
+    display: block;
     background-color: orange;
     width: 100%;
-    margin-bottom: 0;
+    margin-top: 30rem;
     z-index: 5;
     bottom: 0;
     
@@ -244,7 +249,7 @@ h1, h2, h3{
     font-family: "Roboto Slab", serif;
 }
 
-p, li{
+p, li, form{
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -258,7 +263,7 @@ p, li{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 10px;
-    /* gap: 20%; */
+    gap: 10%;
 }
 
 #discoverMain picture img{
@@ -267,3 +272,63 @@ p, li{
 }
 
 #discoverMain picture img:hover {box-shadow: 0 0 50px #333;}
+
+
+/* Join page */
+
+#joinmain{
+    margin: 0 auto;
+    max-width: 600px;
+    font-weight: bold;
+    
+}
+
+form{
+    /* margin-left: 5rem;
+    padding: 10px; */
+    
+}
+
+fieldset {
+    width: 100%;
+    margin:2rem 0;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 30px #fff;
+}
+
+fieldset legend{
+    padding: .5rem;
+}
+
+.top input{
+    height: 34px;
+    border-radius: 5px;;
+}
+
+label{
+    padding-top:10px;
+}
+
+input{
+    display:block;
+    
+    
+}
+
+.member{
+    display:flex;
+}
+
+.subbtn{
+    background-color: orange;
+    padding: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bolder;
+}
+.offers{
+    display:flex;
+}
