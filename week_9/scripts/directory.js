@@ -1,0 +1,1 @@
+const requestURL = "https://github.com/yawam/WDD-230/blob/master/week_9/scripts/data.json"
