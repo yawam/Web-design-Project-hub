@@ -1,0 +1,99 @@
+{
+    "Companies" : [
+        {
+            "name":"MTN-Ghana",
+            "address": "Ridge Towers, 6th Avenue, Ridge-Accra. P. O. Box 281, Trade Fair, Accra, Ghana" ,
+            "phone": "+233 24 430 0000" ,
+            "Website": "www.mtn.com.gh" ,
+            "image": "Images/mtnlogo.png"           
+        },
+        {
+            "name": "Absa Bank",
+            "address": "J.E. Atta-Mills High Street Accra, Greater Accra Region" ,
+            "phone": "+233 (30) 2429150" ,
+            "Website": "www.absa.com.gh" ,
+            "image":"Images/absalogo.png"
+            
+        },
+        {
+            "name":"Ecobank",
+            "address":"2 Morocco Rd, Accra, Ghana" ,
+            "phone":"+233 30 221 3999" ,
+            "Website": "http://www.ecobank.com" ,
+            "image":"Images/ecologo.png"
+            
+        },
+        {
+            "name":"Total Energies Oil and Gas",
+            "address":"Total House, 25 Liberia Road, Accra" ,
+            "phone":"0302 611530" ,
+            "Website":" case.gh@mail.totalenergies.com" ,
+            "image": "Images/totlogo.png"            
+        },
+        {
+            "name":"FanMilk Limited",
+            "address":"P O Box 6460 Accra-North Ghana, Accra" ,
+            "phone":"0302210660" ,
+            "Website": "https://www.fanmilk.com/" ,
+            "image":"Images/fanlogo.png"
+            
+        },
+        {
+            "name":"Guinness Ghana Breweries",
+            "address":"P.O.BOX 3610, Accra, Ghana" ,
+            "phone":"(233) 021 42 80 00" ,
+            "Website":"https://www.diageo.com/" ,
+            "image":"Images/guinlogo.png"
+            
+        },
+        {
+            "name":"Zoomlion Ghana Limited",
+            "address":"University Farm Rd, Madina, Ghana" ,
+            "phone":"+233 24 433 5140" ,
+            "Website":"https://zoomlionghana.com/",
+            "image":"Images/zoomlogo.png"
+            
+        },
+        {
+            "name":"Kwadwo Sheldon Studios",
+            "address":"PR9F+W7V, Patang, Shalom Estate, Adenta Municipality, Ghana" ,
+            "phone":"+233 55 251 8353" ,
+            "Website":"https://kwadwosheldon.com/" ,
+            "image":"Images/kdslogo.jpg"
+            
+        },
+        {
+            "name":"Vodafone Ghana",
+            "address":"Airport Bypass Rd, Accra, Ghana" ,
+            "phone":"0501000300" ,
+            "Website":"https://vodafone.com.gh/" ,
+            "image":"Images/vodlogo.png"
+            
+        },
+        {
+            "name":"Voltic Ghana Limited",
+            "address":"Medie Kotoku Rd., Off Nsawam Rd." ,
+            "phone":"0302 772424" ,
+            "Website": "https://volticghana.com/",
+            "image":"Images/vollogo.png"
+            
+        },
+        {
+            "name":"Special Ice Company Limited",
+            "address":"10 Osu Badu Ave, Accra, Ghana" ,
+            "phone":"+233 24 623 5705" ,
+            "Website":"https://special-ice-company-limited-ghana.business.site/" ,
+            "image":"Images/speclogo.png"
+            
+        },
+        {
+            "name":"Ghana Oil Company",
+            "address":"Junction of Kojo Thompson and Adjabeng Roads, House" ,
+            "phone":"(+233) 302 688214" ,
+            "Website":"https://goil.com.gh/" ,
+            "image":"Images/goillogo.png"
+            
+        }
+    ]
+
+}
