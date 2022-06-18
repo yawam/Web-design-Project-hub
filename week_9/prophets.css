@@ -4,22 +4,23 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 }
+
 #content {
     width: 100%;
     margin: 0 auto;
     }
     .cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
-    justify-content: center;;
+    justify-content: center;
     }
     .cards section {
     border: 1px solid navy;
     background-color: lightblue;
     padding: 30px;
     text-align: center;
-    width: 300px;
+    width: 200px;
     margin: 20px;
     }
     h2, h1 {
@@ -30,3 +31,16 @@ body {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
     }
+
+
+@media only screen and (max-width: 60em){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media only screen and (max-width: 32.5em){
+    .cards{grid-template-columns: 1fr;}
+}
