@@ -134,6 +134,7 @@
 
 .directsection p,a{
     font-size: smaller;
+    margin: 0 auto;
     
 }
 
@@ -142,6 +143,7 @@ table{
 }
 table tr, td{
     display:block;
+    
 }
 
 }
