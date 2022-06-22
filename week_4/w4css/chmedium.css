@@ -121,14 +121,19 @@
 #maindiv{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap:3%;
+    /* grid-template-rows: auto; */
+    grid-gap:50px;
 
 }
 
 .directsection{
     width: 60%;
     margin: auto;
+    
+}
+
+.directsection p,a{
+    font-size: smaller;
     
 }
 

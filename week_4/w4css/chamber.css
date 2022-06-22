@@ -227,7 +227,7 @@ footer{
     display: block;
     background-color: orange;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 20px;
     z-index: 5;
     bottom: 0;
     
@@ -345,7 +345,7 @@ input{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 3rem auto;
     max-width: 80%;
-    gap: 5%;
+    gap: 50px;
     text-align: center;
     /* overflow: scroll; */
     
@@ -385,7 +385,7 @@ table td{
 }
 
 .directsection{
-    width: 80%;
+    width: 100%;
     background-color: white; 
     padding:10px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
