@@ -9,7 +9,9 @@
     <link rel="Stylesheet" href="../week_4/w4css/chmedium.css">
     <link rel="Stylesheet" href="../week_4/w4css/chsmall.css">
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">            
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
     <title>Accra Chamber of Commerce</title>
 </head>
 <body>
@@ -35,7 +37,19 @@
         <h3 id = "banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
         
     </header>
-    <main>
+    <main id="directorymain">
+        <div id="switchicons">
+            <button id = "gridbtn" class="material-symbols-outlined">
+                apps
+            </button>
+            <button id="listbtn" class="material-symbols-outlined">
+                menu
+            </button>
+        </div>
+        <div id="maindiv"></div>
+        <table class="list" id="list"></table>
+
+        
         
     </main>
     <footer>
@@ -50,9 +64,10 @@
         <p class="date">
         &copy;<span id="year"></span> Accra Chamber | Papa Yaw Agyeman-Manu | WDD 230 | last modified: <span id="lastmod"></span>
         </p>
-        <script src="/week_4/w4scripts/chamber.js"></script>
-        <script src="scripts/directory.js"></script>
+       
     </footer>
-    
+    <script src="/week_4/w4scripts/chamber.js"></script>
+    <script src="../week_7/discover.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

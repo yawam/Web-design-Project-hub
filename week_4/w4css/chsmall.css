@@ -57,5 +57,11 @@
     display: none;
 }
 
+#maindiv{
+    display: grid;
+    grid-template-columns: 1fr ;
+
+}
+
 }
 

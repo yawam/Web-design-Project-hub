@@ -227,7 +227,7 @@ footer{
     display: block;
     background-color: orange;
     width: 100%;
-    margin-top: 30rem;
+    margin-top: 20%;
     z-index: 5;
     bottom: 0;
     
@@ -331,4 +331,86 @@ input{
 }
 .offers{
     display:flex;
+}
+
+/*  Directory page */
+
+#directorymain{
+    margin: 0 auto;
+    max-width: 90%;
+    
+}
+#maindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3rem auto;
+    max-width: 80%;
+    gap: 5%;
+    text-align: center;
+    /* overflow: scroll; */
+    
+
+}
+
+
+table.open{
+    display:contents
+}
+
+table{
+    display: none;
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 2px solid #B1B6B9;
+    border-collapse: collapse;
+    font-family: sans-serif;
+            
+}
+
+table tr{
+    border: solid 1px black;
+    
+}
+
+table td{
+    padding: 15px;
+}
+
+.directimg{
+    width:60%;
+    
+    
+
+}
+
+.directsection{
+    width: 80%;
+    background-color: white; 
+    padding:10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+    
+
+}
+
+.directsection:nth-child(10){
+    padding-top:50px;
+
+}
+
+.directsection:nth-child(10) p{
+    
+
+}
+
+#switchicons{
+    margin:10px auto;
+    max-width:100px;
+
+}
+
+#switchicons span{
+    color:#1A73E8; 
+    width: 20%;
 }
