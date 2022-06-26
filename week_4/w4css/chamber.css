@@ -132,11 +132,24 @@ nav ul li a:hover{
 
 }
 
+#event h3,p{
+    margin: 0 auto 5px;
+}
+
 #weather{
     padding: 0px;
     grid-column: 1/2;
     grid-row: 2/3;
 }
+
+#weather h2,p{
+    margin: 0 auto 5px;
+
+}
+figure{
+    margin:0;
+}
+
 
 #join{
     text-align: center;
@@ -249,7 +262,7 @@ h1, h2, h3{
     font-family: "Roboto Slab", serif;
 }
 
-p, li, form{
+p, li, form, a{
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -257,21 +270,26 @@ p, li, form{
 /* discover */
 
 #discoverMain{
-    margin: 0  auto;
+    margin: 20px auto 0;
     max-width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 10px;
-    gap: 10%;
+    gap: 25px;
 }
 
 #discoverMain picture img{
-    max-width: 100%;
+    max-width:100%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
 
 }
 
-#discoverMain picture img:hover {box-shadow: 0 0 50px #333;}
+#discoverMain picture img:hover {
+    box-shadow: 0 0 50px #333;
+}
 
 
 /* Join page */

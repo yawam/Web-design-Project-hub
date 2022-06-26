@@ -4,14 +4,14 @@
             "name":"MTN-Ghana",
             "address": "Ridge Towers, 6th Avenue, Ridge-Accra. P. O. Box 281, Trade Fair, Accra, Ghana" ,
             "phone": "+233 24 430 0000" ,
-            "Website": "www.mtn.com.gh" ,
+            "Website": "https://mtn.com.gh/" ,
             "image": "Images/mtnlogo.png"           
         },
         {
             "name": "Absa Bank",
             "address": "J.E. Atta-Mills High Street Accra, Greater Accra Region" ,
             "phone": "+233 (30) 2429150" ,
-            "Website": "www.absa.com.gh" ,
+            "Website": "https://www.absa.com.gh/personal/" ,
             "image":"Images/absalogo.png"
             
         },
@@ -27,7 +27,7 @@
             "name":"Total Energies Oil and Gas",
             "address":"Total House, 25 Liberia Road, Accra" ,
             "phone":"0302 611530" ,
-            "Website":" case.gh@mail.totalenergies.com" ,
+            "Website":"https://totalenergies.com.gh/" ,
             "image": "Images/totlogo.png"            
         },
         {

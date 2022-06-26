@@ -30,7 +30,7 @@ function displayComps(object){
     address.textContent = `${object.address}`;
     phone.textContent = `${object.phone}`;
     website.textContent = `${object.Website}`;
-    website.setAttribute("href", object.website);
+    website.setAttribute("href", object.Website);
 
     card.appendChild(image);
     card.appendChild(name);

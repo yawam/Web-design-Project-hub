@@ -16,7 +16,7 @@
     <body>
         <header>
             <section id="head">
-            <img class = "logo" src="../week_3/w3img/greeticon.webp" alt="site-logo">
+            <a href="index.html"><img class = "logo" src="../week_3/w3img/greeticon.webp" alt="site-logo"></a>
             <h1><strong>Accra</strong> <br> Chamber of Commerce</h1>
             <nav>
                 <button id="hamgurgerbtn"><span>&#9776;</span><span>X</span></button>
@@ -39,15 +39,15 @@
             <section id="event" ><h3><i class='fas fa-golf-ball'></i>Achimota Golf club</h3><p>Come join us this Saturday at 10am. <br> Let's Connect <br> Let's Play Golf</p></section>
             <section id="weather" >
                 <h2>
-                    Weather <span id = "wednum">23</span>&#8451
+                </p><figure><img src="" alt="" id="weathericon" /> Weather <span id = "wednum">23</span>&#8451
                 </h2>
-                <p>Partly Cloudy</p>
+                <p id="description">Partly Cloudy</p>
                 <p>Wind Speed = <span id = "wedspeed">2.5</span>km </p>
                 <p>Wind Chill = <span id = "wedchill" ></span></p>
             </section>
 
             <section id="join" >
-                <button>Join Us today!</button>
+                <a href="../week_8/join.html"><button>Join Us today!</button></a>
                 <p>Come join the chamber. <br> Let's get you connected</p>
             </section>
 
@@ -86,10 +86,11 @@
             </section>
 
             <p class="date">
-            &copy;<span id="year"></span> Accra Chamber | Papa Yaw Agyeman-Manu | WDD 230 | last modified: <span id="lastmod"></span>
+            &copy;<span id="year"></span> Accra Chamber | Papa Yaw Agyeman-Manu | WDD 230 | last modified: <span id="lastmod"></span>|   Weather-source <span id="icon-src"></span>
             </p>
             <script src="w4scripts/chamber.js"></script>
             <script src="../week_5/w5js/windchill.js"></script>
+            <script src="../week_10/weather-api.js"></script>
         </footer>
         
     </body>
