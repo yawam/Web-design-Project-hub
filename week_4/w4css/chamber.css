@@ -8,12 +8,12 @@ body{
 
 /* HEADER */
 header {
-    background-color: orange;
+    background-color: rgb(142, 127, 101);
 }
 
 #head{
     display: flex;
-    background-color: orange;
+    background-color: rgb(118, 88, 35);
     padding: 10px 10px 10px 10px;
     /* border-radius: 10px 10px 0px 0px; */
     /* box-shadow: 3px 3px 50px darkgray; */
@@ -21,10 +21,13 @@ header {
     align-items: center;
     
 }
-
+#head h1{
+    color: white;
+}
 .date{
     display:block;
     text-align: center;
+    color: white;
     background-color: rgba(0, 0, 0, 0.1) ;
     box-shadow: 0 0 0.9px rgba(0, 0, 0, 0.9);
     padding: 5px;
@@ -59,7 +62,7 @@ img.icons{
 }
 
 nav {
-    background-color: #6d98ba;
+    background-color: #4f84b3;
     border-radius: 7px 7px 7px 7px;
     width:40%;
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
@@ -96,12 +99,11 @@ nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
 nav ul li a:hover{
-    color: white;
     background-color:rgba(0, 0, 0, 0.3);
 
 }
@@ -238,7 +240,7 @@ figure{
 footer{
     /* position: fixed; */
     display: block;
-    background-color: orange;
+    background-color: rgb(118, 88, 35);
     width: 100%;
     margin-top: 20px;
     z-index: 5;
@@ -246,10 +248,14 @@ footer{
     
 }
 
+footer h3{
+    margin-left: 5px;
+}
+
 
 #actfoot{
     display: flex;
-    background-color: orange;
+    background-color: rgb(142, 127, 101);
     padding: 10px 10px 10px 10px;
     /* border-radius: 10px 10px 0px 0px; */
     /* box-shadow: 3px 3px 50px darkgray; */
