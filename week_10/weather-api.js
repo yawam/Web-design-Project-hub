@@ -6,9 +6,14 @@ async function getWeather(URL){
         const jsonObject =await response.json();
         console.log(jsonObject);
 
-        let currtemp = jsonObject.main.temp;
-    
-        document.querySelector("#wednum").textContent = currtemp;
+        let tempr = jsonObject.main.temp;
+        let windspeed = jsonObject.wind.speed;
+        let chill = Math.round((35.74 + (0.6215 * tempr))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*tempr*Math.pow(windspeed,0.16)));
+
+        console.log(chill);
+        document.querySelector("#wedchill").textContent = chill;
+        document.querySelector("#wedspeed").textContent = windspeed;
+        document.querySelector("#wednum").textContent = tempr;
 
         const iconsrc= `https://openweathermap.org/img/w/${jsonObject.weather[0].icon}.png`;
         const desc = jsonObject.weather[0].description;
