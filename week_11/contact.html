@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Accra's Chamber of Commerce Platform">
         <link rel="stylesheet" href="/index_css/normalize.css">
-        <link rel="Stylesheet" href="w4css/chamber.css">
-        <link rel="Stylesheet" href="w4css/chmedium.css">
-        <link rel="Stylesheet" href="w4css/chsmall.css">
+        <link rel="Stylesheet" href="../week_4/w4css/chamber.css">
+        <link rel="Stylesheet" href="../week_4/w4css/chmedium.css">
+        <link rel="Stylesheet" href="../week_4/w4css/chsmall.css">
         <link rel="shortcut icon" href="../favicon.ico">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">            
-        <title>Accra Chamber of Commerce</title>
+        <title>Contact us - Accra Chamber of Commerce</title>
     </head>
     <body>
         <header>
@@ -27,54 +27,55 @@
                     <li><a href="../week_11/contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <a  href="https://www.facebook.com/"><img class="icons" src= "w4imgs/facebookfootericon.png" alt="facebook"></a>
-            <a  href="https://www.instagram.com/"><img class="icons" src= "w4imgs/instagramfootericon.png" alt="Instagram"></a>
+            <a  href="https://www.facebook.com/"><img class="icons" src= "../week_4/w4imgs/facebookfootericon.png" alt="facebook"></a>
+            <a  href="https://www.instagram.com/"><img class="icons" src= "../week_4/w4imgs/instagramfootericon.png" alt="Instagram"></a>
         </section>
 
             <p id="date" class="date"> Wednesday</p>
             <h3 id = "banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
         </header>
 
-        <main id="homepagemain">
-            <section id="event" ><h3><i class='fas fa-golf-ball'></i>Achimota Golf club</h3><p>Come join us this Saturday at 10am. <br> Let's Connect <br> Let's Play Golf</p></section>
-            <section id="weather" >
-                <h2>
-                </p><figure><img src="" alt="" id="weathericon" /> Weather <span id = "wednum">23</span>&#8451
-                </h2>
-                <p id="description">Partly Cloudy</p>
-                <p>Wind Speed = <span id = "wedspeed">2.5</span>km </p>
-                <p>Wind Chill = <span id = "wedchill" ></span>&#8451</p>
-            </section>
+        <main >
+            <div id="contmainheader">
+                <h1 >Board of Executives</h1>
+                <p>Meet our Board of Executives</p>
+            </div>
+            
+            <section id="contmain">
+            <picture>
+                <img src="w11imgs/rsz_director.jpg" alt="Executive Member">
 
-            <section id="join" >
-                <a href="../week_8/join.html"><button>Join Us today!</button></a>
-                <p>Come join the chamber. <br> Let's get you connected</p>
-            </section>
 
-            <section id="hero">
-                <picture>
-                    
-                    <source media = "(max-width: 32.5em)" srcset = "../week_5/w5img/accra-airport-city.png">
-                    <source media = "(max-width: 60em)" srcset = "../week_5/w5img/accra-airport-city.png">
-                    <img src="../week_5/w5img/accra-airport-city.png" alt="Airport city view Accra">
-                </picture>
+            </picture>
+            <picture>
+                <img src="w11imgs/rsz_director_2.jpg" alt="Executiive Member">
                 
-                <div class="shade"></div>
-                <h2>Welcome to Accra</h2>
-                <button>Join the Chamber</button>
+            </picture>
+            <picture>
+                <img src="w11imgs/Fem Director3.jpg" alt="Executive Member">
+            </picture>
+            <picture>
+                <img src="w11imgs/Fem Director4.jpg" alt=" Executive Member">
                 
-            </section>
+            </picture>
+            <picture>
+                <img src="w11imgs/Director 4.jpg" alt="Executiive Member">
 
-            <section id="news">
-                <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tellus vel dolor iaculis eleifend. Ut ullamcorper nulla ut neque suscipit vestibulum. </p>
+            </picture>
             </section>
-
-            <section id="spotlight" >
-                <div class="spots">Spotlight 1</div>
-                <div class="spots">Spotlight 2</div>
-                <div class="spots">Spotlight 3</div>
-            </section>
+            
+            <form method="get" action="MessageReturn.html"></form>
+                <fieldset>
+                    <legend>Info</legend>
+                    <label class="top"> First Name*<input type="text" name="fname" required> </label>
+                    <label class="top"> Last Name*<input type="text" name="lname" required> </label>
+                    <label class="top"> Email<input type="email" name="email" placeholder="https://someone@gmail.com" required> </label>
+                    <label class="top"> Cell Phone Number*<input type="tel" name="phone" required> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>How can we help</legend>
+                    <textarea name="Inquiry" cols="30" rows="10"></textarea>
+                </fieldset>
         </main>
         <footer>
             <section id="actfoot">
