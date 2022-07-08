@@ -7,6 +7,11 @@
         flex-direction: column;
     }
 
+    nav ul li a:hover{
+        background-color: #4f84b3;
+    
+    }
+
     #actfoot{
         flex-direction: column;
         
