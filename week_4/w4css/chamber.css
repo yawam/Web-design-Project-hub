@@ -161,13 +161,13 @@ figure{
 }
 
 
-#join{
+.join{
     text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
 }
 
-#join button{
+.joinbutton{
     background-color: orange;
     margin: 10px;
     padding: 10px;
@@ -240,9 +240,30 @@ figure{
 .spots{
     text-align:left;
     border: 1px solid black;
-    padding: 3rem;
+    padding: 5px;
     height: 100%;
+    overflow: hidden;
 }
+
+.spots img{
+    transition: .5s ease;
+
+}
+
+#gfa{
+    height: 150px;
+    margin: 10% 18%;
+}
+
+#shaxi{
+    margin: 10% 15%;
+
+}
+
+.spots img:hover{
+    transform: scale(1.5);
+}
+
 
 /* FOOTER */
 
