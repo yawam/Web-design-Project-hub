@@ -41,7 +41,7 @@ function displayTemps(object){
     card.appendChild(email);
     card.appendChild(schedule);
 
-    document.querySelector("#maindiv").appendChild(card);
+    document.querySelector("#tempmain").appendChild(card);
 
 
 };
