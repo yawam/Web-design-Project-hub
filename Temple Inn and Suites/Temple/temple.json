@@ -6,7 +6,7 @@
             "phone":"897-785-8978",
             "email":"lgstemp@lds.org",
             "schedule":"First Session starts at 8am and last session ends at 8pm",
-            "image": "Images/mtnlogo.png" 
+            "image": "templeimages/rsz_aba-nigeria-temple.jpg" 
 
         },
         {
@@ -15,7 +15,7 @@
             "phone":"815-590-060",
             "email":"cngtemp@lds.org",
             "schedule":"First Session starts at 8am and last session ends at 8pm",
-            "image": "Images/mtnlogo.png" 
+            "image": "templeimages/rsz_congo-temple.jpg" 
         },
         {
             "name":"Cape-Town South-Africa Temple",
@@ -23,7 +23,7 @@
             "phone":"683-6789-1209",
             "email":"ctsatemp@lds.org",
             "schedule":"First Session starts at 8am and last session ends at 8pm",
-            "image": "Images/mtnlogo.png" 
+            "image": "templeimages/rsz_capetown_southafrica_temple.jpg" 
         },
         {
             "name":"Ghana-Accra Temple",
@@ -31,7 +31,7 @@
             "phone":"302-650-123",
             "email":"lngtemp@lds.org",
             "schedule":"First Session starts at 8am and last session ends at 8pm",
-            "image": "Images/mtnlogo.png" 
+            "image": "templeimages/rsz_accra-ghana-temple.jpg" 
         }
     ]
 }
