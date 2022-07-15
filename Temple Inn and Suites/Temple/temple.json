@@ -1,0 +1,37 @@
+{
+    "Temples" : [
+        {
+            "name":"Lagos-Nigeria Temple",
+            "address":"No.5 Gbemi Oluwa Close",
+            "phone":"897-785-8978",
+            "email":"lgstemp@lds.org",
+            "schedule":"First Session starts at 8am and last session ends at 8pm",
+            "image": "Images/mtnlogo.png" 
+
+        },
+        {
+            "name":"Congo-Kinshasa Temple",
+            "address":"Avenue de l'OUA, Commune de Ngaliema, Kinshasa",
+            "phone":"815-590-060",
+            "email":"cngtemp@lds.org",
+            "schedule":"First Session starts at 8am and last session ends at 8pm",
+            "image": "Images/mtnlogo.png" 
+        },
+        {
+            "name":"Cape-Town South-Africa Temple",
+            "address":"3 Liesbeek Road, Observatory, Cape Town",
+            "phone":"683-6789-1209",
+            "email":"ctsatemp@lds.org",
+            "schedule":"First Session starts at 8am and last session ends at 8pm",
+            "image": "Images/mtnlogo.png" 
+        },
+        {
+            "name":"Ghana-Accra Temple",
+            "address":"57 Independence Avenue, North Ridge, PMB CT 209, Cantonments, Accra",
+            "phone":"302-650-123",
+            "email":"lngtemp@lds.org",
+            "schedule":"First Session starts at 8am and last session ends at 8pm",
+            "image": "Images/mtnlogo.png" 
+        }
+    ]
+}

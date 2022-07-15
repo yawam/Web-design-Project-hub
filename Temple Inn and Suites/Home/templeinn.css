@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Cormorant+SC:wght@500&family=Quicksand&family=Roboto+Slab:wght@300&display=swap');
+
+h1,h2,h3{
+    font-family: 'Cormorant SC', serif;
+}
+
+p, a{
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    background-color: white;
+    
+
+}
+.logodiv{
+    max-width: 400px;
+    padding: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.pagelogo{
+    margin:0 auto;
+    /* height: 200px; */
+    /* width: 200px; */
+    
+}
+
+nav{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #268BCF;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
+
+nav ul {
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 0px;
+    
+    
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2.5vw;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#homemain{
+    
+
+}
+
+#calltoaction{
+    position: relative;
+}
+
+#calltoactionbox{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 17%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    opacity: .9;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    transition: all 0.5s ease-out;
+}
+
+#calltoactionbox:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+#calltoactionbox p{
+    margin: 0;
+    font-weight: bolder;
+}
+
+#calltoaction img{
+    border-top: 5px solid #F8D53A;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+#maintempdiv{
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.maintempdivbanner h2{
+    text-align: center;
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+
+.maintempdivbanner p{
+    margin-top:0px;
+    letter-spacing: 1vw;
+}
+
+#maintempdivcontent{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#weathercards{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.card{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(251, 249, 249, 0.958);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    
+}
+
+.card img{
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+
+}
+
+iframe{
+
+}
+.icons{
+    border-radius: 100%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
+
+#footerinfo{
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #268BCF;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+    justify-content: space-around;
+    text-justify: center;
+}
+
+#footerinfo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
