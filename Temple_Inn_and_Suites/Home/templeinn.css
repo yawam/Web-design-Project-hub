@@ -113,6 +113,17 @@ nav ul li a{
     letter-spacing: 1vw;
 }
 
+.maintempdivbanner input{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+    width: 300px;
+    height: 44px;
+    
+}
+
 #maintempdivcontent{
     margin-top: 10rem;
     display: grid;
@@ -121,14 +132,20 @@ nav ul li a{
 }
 
 #weathercards{
-    max-width: 1200px;
+    display: none;
+    max-width: 600px;
     margin: auto;
     margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
 }
+
+#weathercards img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
 .card{
+    text-align: center;
     margin: 0 auto;
     padding: 10px;
     background-color: rgba(251, 249, 249, 0.958);
@@ -145,6 +162,9 @@ nav ul li a{
 }
 
 iframe{
+    margin: 0 auto;
+    /* text-align: center; */
+    display: block;
 
 }
 .icons{
@@ -167,4 +187,33 @@ iframe{
     color: white;
     font-weight: bolder;
     font-size: large;
+}
+
+/* Temple Page */
+
+#tempmain{
+    margin: 0 auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#tempmain .card{
+    width: 95%;
+    
+}
+
+#tempmain .card img{
+    width: 500px;
+    float: left;
+    margin: 10px;
+}
+
+#tempmain #emoji{
+    width: 50px;
+    box-shadow: none;
+    /* position: absolute; */
+    bottom: 10px;
+    background-color: pink;
 }

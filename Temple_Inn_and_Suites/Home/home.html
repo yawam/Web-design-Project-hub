@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/index_css/normalize.css">
     <link rel="stylesheet" href="templeinn.css">
+    <script defer src="weather.js"></script>
     <title>Temple Inn and Suites - Home</title>
 </head>
 <body>
@@ -71,19 +72,19 @@
         <div>
             <div class="maintempdivbanner">
                 <h2>What's The Weather Like</h2>
+                <input type="text" autocomplete="off" class="search-box" placeholder="Where are you going..." />
             </div>
             <section id="weathercards">
                 <div class="card">
-                    <img src="homeimages/rsz_lagos__nigeria.jpg" alt="weather_card">
-                    <h3>Weather 1</h3>
+                    <img id="weathericon" src="" alt="">
+                    <h2 id="description"></h2>
+                    <p id = "wednum"></p>
+                    <p id="wedspeed"></p>
+                    <p id="wedchill"></p>
+                    <p id="humidity"></p>
                 </div>
-                <div class="card">
-                    <img src="homeimages/rsz_luanda.jpg" alt="weather_card">
-                    <h3>Weather 2</h3>
-                </div>
-                <div class="card">
-                    <img src="homeimages/rsz_capetown-southafrica.jpg" alt="weather_card">
-                    <h3>Weather 3</h3>
+                    
+
                 </div>
             </section>
                 
@@ -99,8 +100,8 @@
         <section id="footerinfo">
         <a href=""> <p>Contact us</p></a> 
         <a href=""> <p>FAQs</p></a>
-        <a  href="https://www.facebook.com/"><img class="icons" src= "../week_4/w4imgs/facebookfootericon.png" alt="facebook"></a>
-        <a  href="https://www.instagram.com/"><img class="icons" src= "../week_4/w4imgs/instagramfootericon.png" alt="Instagram"></a>
+        <a  href="https://www.facebook.com/"><img class="icons" src= "/week_4/w4imgs/facebookfootericon.png" alt="facebook"></a>
+        <a  href="https://www.instagram.com/"><img class="icons" src= "/week_4/w4imgs/instagramfootericon.png" alt="Instagram"></a>
         </section>
         
 

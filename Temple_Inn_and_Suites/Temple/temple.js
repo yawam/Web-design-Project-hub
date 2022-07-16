@@ -1,4 +1,4 @@
-const requestURL = "https://github.com/yawam/WDD-230/blob/master/Temple%20Inn%20and%20Suites/Temple/temple.json";
+const requestURL = "https://yawam.github.io/WDD-230/Temple_Inn_and_Suites/Temple/temple.json";
 
 async function getComps(URL){
     const response = await fetch(URL);
@@ -22,6 +22,7 @@ function displayTemps(object){
     let phone = document.createElement("p");
     let email = document.createElement("p");
     let schedule = document.createElement("p");
+    let emoji = document.createElement("img");
 
     image.setAttribute("src", object.image);
     image.setAttribute("alt", "temple-image");
@@ -31,8 +32,9 @@ function displayTemps(object){
     address.textContent = `${object.address}`;
     phone.textContent = `${object.phone}`;
     email.textContent = `${object.email}`;
-    website.setAttribute("href", object.Website);
     schedule.textContent = `${object.schedule}`;
+    emoji.setAttribute("src",  "templeimages/heart_emoji.png");
+    emoji.setAttribute("id", "emoji");
 
     card.appendChild(image);
     card.appendChild(name);
@@ -40,6 +42,7 @@ function displayTemps(object){
     card.appendChild(phone);
     card.appendChild(email);
     card.appendChild(schedule);
+    card.append(emoji);
 
     document.querySelector("#tempmain").appendChild(card);
 
