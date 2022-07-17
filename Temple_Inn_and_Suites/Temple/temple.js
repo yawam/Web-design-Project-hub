@@ -42,7 +42,7 @@ function displayTemps(object){
     card.appendChild(phone);
     card.appendChild(email);
     card.appendChild(schedule);
-    card.append(emoji);
+    // card.append(emoji);
 
     document.querySelector("#tempmain").appendChild(card);
 
