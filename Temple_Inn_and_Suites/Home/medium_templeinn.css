@@ -1,0 +1,25 @@
+@media only screen and (max-width: 60em){
+    #calltoactionbox{
+        top: 10px;
+        left: 20px;
+        width:30%;
+        padding: 5px;
+        display: none;
+
+    }
+    #maintempdivcontent{
+        grid-template-columns: 1fr;
+    }
+
+    iframe{
+        height: 100px;
+        width:500px
+    }
+
+    #tempmain .card img{
+        width: 50%;
+        height: 45%;
+        
+    }
+
+}

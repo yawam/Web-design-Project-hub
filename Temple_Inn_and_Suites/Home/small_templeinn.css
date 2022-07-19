@@ -1,0 +1,26 @@
+@media only screen and (max-width: 45em){
+    #maintempdivcontent{
+        grid-template-columns: 1fr;
+    }
+
+    iframe{
+        height: 100px;
+        width:300px
+    }
+
+    #tempmain{
+        grid-template-columns: 1fr;
+    }
+
+    #tempmain .card p{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+
+    #tempmain .card p:last-child{
+        margin-
+    }
+
+
+
+}
