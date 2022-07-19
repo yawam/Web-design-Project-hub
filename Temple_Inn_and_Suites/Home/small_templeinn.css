@@ -1,4 +1,4 @@
-@media only screen and (max-width: 45em){
+@media only screen and (max-width: 35em){
     #maintempdivcontent{
         grid-template-columns: 1fr;
     }
@@ -9,6 +9,7 @@
     }
 
     #tempmain{
+        padding: 20px;
         grid-template-columns: 1fr;
     }
 
@@ -17,8 +18,9 @@
         margin-top: 2px;
     }
 
-    #tempmain .card p:last-child{
-        margin-
+    #tempmain .card{
+        width: 100%;
+
     }
 
 
